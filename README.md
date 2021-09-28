@@ -27,8 +27,8 @@ CUDA 11.1
 ### 5000iter  
 ![5000iter][6]  
 
-Here are the weights I trained from 9~~10~~ goblin images.
-![weights][7] 
+### Here are the weights I trained from 9~~10~~ goblin images.  
+![link][7] 
 
 
 [1]:https://arxiv.org/pdf/2104.06820.pdf
