@@ -32,8 +32,8 @@ Look at the base repo.
 ### Here are the weights I trained from 9 ~~10~~ goblin images.  
 [weights][7] 
 
-## Arcimboldo souce images   
-![Arcimboldo_concat_source][9]  
+<!--## Arcimboldo souce images  
+![Arcimboldo_concat_source][9] 
 ## Result  
 ### 1000iter  
 ![1000iter][10]  
@@ -41,8 +41,7 @@ Look at the base repo.
 ![5000iter][11]  
 ### Here are the weights I trained from 5 images of Arcimboldo's work.  
 [weights][12] 
-
-
+-->
 
 [1]:https://arxiv.org/pdf/2104.06820.pdf
 [2]:https://github.com/rosinality/stylegan2-pytorch
