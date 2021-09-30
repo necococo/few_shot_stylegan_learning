@@ -24,18 +24,15 @@ Look at the [stylegan2-pytorch repository][2]
 
 
 ## Results 
-
-## Arcimboldo: Source images  
-![Arcimboldo_concat_source][9]  
-### 1800iter  
+### Arcimboldo:1800iter   
 ![1800iter][10]  
+### Arcimboldo:Source images   
+![Arcimboldo_concat_source][9]  
 
-## Goblin: Source images  
-![Goblin_concat_source][8] 
-### 1000iter  
+### Goblin:1000iter  
 ![1000iter][5]  
-
-
+### Goblin:Source images  
+![Goblin_concat_source][8]  
 
 
 [1]:https://arxiv.org/pdf/2104.06820.pdf
@@ -47,7 +44,7 @@ Look at the [stylegan2-pytorch repository][2]
 [7]:https://drive.google.com/drive/folders/1-14kuaMPomfK4kYXxo_oxtBNDHG10Bms?usp=sharing
 [8]:./figs/goblin_concat_img.png
 
-[9]:./figs/arcim_concat_img
+[9]:./figs/arcim_concat_img.png
 [10]:./figs/arcim_551800.png
 [11]:./figs/arcim_5000iter.png
 [12]:https://drive.google.com/drive/folders/
