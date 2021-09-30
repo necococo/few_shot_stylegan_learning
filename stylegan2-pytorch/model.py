@@ -434,7 +434,7 @@ class Generator(nn.Module):
         self.to_rgb1 = ToRGB(self.channels[4], style_dim, upsample=False)
 
         self.log_size = int(math.log(size, 2))
-        self.num_layers = (self.log_size - 2) * 2 + 1
+        self.num_layers = (self.log_size - 2) * 2 + 1 # (8-2)*2+1=13
 
         self.convs = nn.ModuleList()
         self.upsamples = nn.ModuleList()
@@ -443,12 +443,12 @@ class Generator(nn.Module):
 
         in_channel = self.channels[4]
 
-        for layer_idx in range(self.num_layers):
-            res = (layer_idx + 5) // 2
-            shape = [1, 1, 2 ** res, 2 ** res]
+        for layer_idx in range(self.num_layers): # 0-12
+            res = (layer_idx + 5) // 2 # 2,3,3,4,4,...8,8
+            shape = [1, 1, 2 ** res, 2 ** res] #[1,1,4,4],[1,1,8,8,],[1,1,8,8],....[1,1,256,256]
             self.noises.register_buffer(f"noise_{layer_idx}", torch.randn(*shape))
 
-        for i in range(3, self.log_size + 1):
+        for i in range(3, self.log_size + 1):#3, 9
             out_channel = self.channels[2 ** i]
 
             self.convs.append(
@@ -507,7 +507,7 @@ class Generator(nn.Module):
         noise=None,
         randomize_noise=True,
     ):
-        if not input_is_latent:
+        if not input_is_latent:# Sometimes input = mean_latent.
             styles = [self.style(s) for s in styles]
 
         if noise is None:
@@ -515,7 +515,7 @@ class Generator(nn.Module):
                 noise = [None] * self.num_layers
             else:
                 noise = [
-                    getattr(self.noises, f"noise_{i}") for i in range(self.num_layers)
+                    getattr(self.noises, f"noise_{i}") for i in range(self.num_layers) # getattr(x, 'foobar') = x.foobar 
                 ]
 
         if truncation < 1:

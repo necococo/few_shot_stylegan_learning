@@ -1,9 +1,11 @@
 from io import BytesIO
-
 import lmdb
 from PIL import Image
 from torch.utils.data import Dataset
-import numpy as np
+# import numpy as np
+import torch
+import random
+
 
 class MultiResolutionDataset(Dataset):
     def __init__(self, path, transform, resolution=256):
@@ -41,14 +43,18 @@ class MultiResolutionDataset(Dataset):
 
 
 class AncherDataset(Dataset):# A set of fixed noises to be generated for the anchor region.
-    def __init__(self, args, device, n_anchs):
-        self.n_anchs = n_anchs
-        self.z_anchs  = np.random.randn(n_anchs, args.latent).astype(np.float32)
+    def __init__(self, args, device, n_anc_noise):
+        self.device=device
+        self.n_anc_noise = n_anc_noise
+        self.z_anc_noise = torch.randn(n_anc_noise, args.latent, device=device)#([len(dataset), 512], device=device)
         
     def __getitem__(self, index):
-        return self.z_anchs[index]
+        self.item =self.z_anc_noise[index]
+        return self.item
 
     def __len__(self):
-        return  self.n_anchs #10
+        return  self.n_anc_noise #10
+
+   
 
 
