@@ -39,12 +39,12 @@ Look at the [stylegan2-pytorch repository][2]
 [2]:https://github.com/rosinality/stylegan2-pytorch
 [3]:https://drive.google.com/file/d/1PQutd-JboOCOZqmd95XWxWrO8gGEvRcO/
 <!--[4]:./figs/e911d211.jpg-->
-[5]:./figs/gob_1000iter.png
-[6]:./figs/gob_5000iter.png
+[5]:./figs/gob_1000iter.png | height=128
+[6]:./figs/gob_5000iter.png | height=128
 [7]:https://drive.google.com/drive/folders/1-14kuaMPomfK4kYXxo_oxtBNDHG10Bms?usp=sharing
-[8]:./figs/goblin_concat_img.png
+[8]:./figs/goblin_concat_img.png | height=128
 
-[9]:./figs/arcim_concat_img.png
-[10]:./figs/arcim_551800.png
-[11]:./figs/arcim_5000iter.png
+[9]:./figs/arcim_concat_img.png | height=128
+[10]:./figs/arcim_551800.png | height=128
+[11]:./figs/arcim_5000iter.png | height=128
 [12]:https://drive.google.com/drive/folders/
