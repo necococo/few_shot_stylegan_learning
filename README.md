@@ -25,23 +25,23 @@ Look at the [stylegan2-pytorch repository][2]
 
 ## Results 
 ### Arcimboldo:1800iter   
-[4] 
+![4] 
 
 ### Arcimboldo:Source images   
-[5]
+![5]
 
 ### Goblin:1000iter  
-[6]
+![6]
 
 ### Goblin:Source images  
-[7] 
+![7] 
 
 
 [1]:https://arxiv.org/pdf/2104.06820.pdf
 [2]:https://github.com/rosinality/stylegan2-pytorch
 [3]:https://drive.google.com/file/d/1PQutd-JboOCOZqmd95XWxWrO8gGEvRcO/
-[4]:(./figs/arcim_551800.png)
-[5]:(./figs/arcim_concat_img.png)
-[6]:(./figs/gob_1000iter.png)
-[7]:(./figs/goblin_concat_img.png)
+[4]:./figs/arcim_551800.png
+[5]:./figs/arcim_concat_img.png
+[6]:./figs/gob_1000iter.png
+[7]:./figs/goblin_concat_img.png
 
