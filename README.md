@@ -41,7 +41,7 @@ Look at the [stylegan2-pytorch repository][2]
 [2]:https://github.com/rosinality/stylegan2-pytorch
 [3]:https://drive.google.com/file/d/1PQutd-JboOCOZqmd95XWxWrO8gGEvRcO/
 [4]:./figs/arcim_551800.png
-[5]:./figs/arcim_concat_img.png=1536*256
+[5]:./figs/arcim_concat_img.png =1536
 [6]:./figs/gob_1000iter.png
 [7]:./figs/goblin_concat_img.png
 
