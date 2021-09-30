@@ -39,8 +39,7 @@ Look at the [stylegan2-pytorch repository][2]
 [2]:https://github.com/rosinality/stylegan2-pytorch
 [3]:https://drive.google.com/file/d/1PQutd-JboOCOZqmd95XWxWrO8gGEvRcO/
 <!--[4]:./figs/e911d211.jpg-->
-[5]:./figs/gob_1000iter.png | height=128
-[6]:./figs/gob_5000iter.png | height=128
+[5]:./figs/gob_1000iter.png =2560x512
 [7]:https://drive.google.com/drive/folders/1-14kuaMPomfK4kYXxo_oxtBNDHG10Bms?usp=sharing
 [8]:./figs/goblin_concat_img.png | height=128
 
