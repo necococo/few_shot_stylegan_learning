@@ -40,7 +40,7 @@ Look at the [stylegan2-pytorch repository][2]
 [1]:https://arxiv.org/pdf/2104.06820.pdf
 [2]:https://github.com/rosinality/stylegan2-pytorch
 [3]:https://drive.google.com/file/d/1PQutd-JboOCOZqmd95XWxWrO8gGEvRcO/
-[4]:./figs/arcim_551800.png
+[4]:./figs/arcim_551800_margin_added.png
 [5]:./figs/arcim_concat_img.png
 [6]:./figs/gob_1000iter.png
 [7]:./figs/goblin_concat_img.png
