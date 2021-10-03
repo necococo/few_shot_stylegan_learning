@@ -27,13 +27,13 @@ Look at the [stylegan2-pytorch repository][2]
 ### Arcimboldo:1800iter   
 ![4] 
 
-### Arcimboldo:Source images   
+### Arcimboldo:Target 5 images   
 ![5]
 
 ### Goblin:1000iter  
 ![6]
 
-### Goblin:Source images  
+### Goblin:Target 9 images  
 ![7] 
 
 
