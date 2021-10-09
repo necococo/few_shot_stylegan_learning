@@ -1,6 +1,6 @@
 # Few-shot style learning by stylegan2
 
-(My first) Implementaion of [Few-shot Image Generation via Cross-domain Correspondence][1] in PyTorch.
+Implementaion of [Few-shot Image Generation via Cross-domain Correspondence][1] in PyTorch.
 
 
 GAN training generally requires a large number of training images, and training on a small number of data often results in overfitting.   
